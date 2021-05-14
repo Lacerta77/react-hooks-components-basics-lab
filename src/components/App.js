@@ -16,12 +16,20 @@ function Home() {
   );
 }
 
+function About() {
+  return (
+    <div id="about">
+      <h2>My name is Kevin Hickman I was born on August 6th, 1997.</h2>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* write an <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
